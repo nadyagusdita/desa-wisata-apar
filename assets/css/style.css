@@ -1,0 +1,366 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css");
+
+body {
+  background-color: #fff;
+  font-family: "Assistant", sans-serif;
+}
+
+/* Navbar */
+
+.navbar {
+  margin-left: -12px;
+  margin-right: -12px;
+}
+
+.navbar-dark .navbar-nav .nav-link,
+.navbar-light .navbar-nav .nav-link {
+  border-radius: 12px;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:hover {
+  background-color: #8e9f53;
+  border-radius: 12px;
+  color: #fff;
+}
+
+/* Header */
+
+header {
+  padding: 230px 0 165px;
+  background-image: url(../img/header-img.png);
+  background-size: cover;
+  margin-top: -90px;
+  height: 700px;
+}
+
+header h1,
+header p {
+  color: #fff;
+}
+
+header h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+header p {
+  font-size: 22px;
+}
+
+header .btn-get-started {
+  background-color: #728828;
+  color: #fff;
+}
+
+header .btn-get-started:hover {
+  background-color: #435b16;
+  color: #fff;
+}
+
+/* Paket Wisata */
+
+.section-paket-wisata {
+  background-color: #435b16;
+  min-height: 540px;
+  margin-bottom: -300px;
+}
+
+.section-paket-wisata .section-paket-wisata-heading {
+  padding-top: 100px;
+}
+
+.section-paket-wisata .section-paket-wisata-heading h2,
+.section-paket-wisata .section-paket-wisata-heading p {
+  color: #fff;
+}
+
+.section-paket-wisata .section-paket-wisata-heading h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.section-paket-wisata .section-paket-wisata-heading p {
+  font-size: 18px;
+}
+
+.section-paket-wisata-content .section-paket-wisata-card .card-paket-wisata {
+  min-height: 380px;
+  background-color: #ddd;
+  color: #fff;
+  padding-top: 30px;
+  background-size: cover;
+  padding-bottom: 20px;
+}
+
+.section-paket-wisata-content
+  .section-paket-wisata-card
+  .card-paket-wisata
+  .title-paket {
+  font-size: 18px;
+}
+
+.section-paket-wisata-content
+  .section-paket-wisata-card
+  .card-paket-wisata
+  .paket-wisata-button
+  .btn-paket-details {
+  background-color: #435b16;
+  color: #fff;
+}
+
+.section-paket-wisata-content
+  .section-paket-wisata-card
+  .card-paket-wisata
+  .paket-wisata-button
+  .btn-paket-details:hover {
+  background-color: #728828;
+  color: #fff;
+}
+
+/* Fasilitas Wisata */
+
+.section-fasilitas {
+  min-height: 540px;
+  margin-bottom: -300px;
+}
+
+.section-fasilitas .section-fasilitas-heading {
+  padding-top: 100px;
+}
+
+.section-fasilitas .section-fasilitas-heading h2,
+.section-fasilitas .section-fasilitas-heading p {
+  color: #435b16;
+}
+
+.section-fasilitas .section-fasilitas-heading h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.section-fasilitas .section-fasilitas-heading p {
+  font-size: 18px;
+}
+
+.benefits {
+  margin-top: 50px;
+}
+
+.benefits .rectangle {
+  max-width: 302px;
+  /* max-height: 400px; */
+  border: 1px solid #9ba8be;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 26px;
+}
+
+.benefits .rectangle img {
+  margin-top: 50px;
+}
+
+.benefits .rectangle .headline-benefit {
+  margin-top: 40px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+  text-align: center;
+  color: #111f37;
+}
+
+.benefits .rectangle .subheadline-benefit {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 175% */
+  text-align: center;
+  color: #627492;
+  margin-bottom: 40px;
+}
+
+/* Berita Terbaru */
+
+.section-berita {
+  min-height: 540px;
+  margin-bottom: -300px;
+  /* background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 34.25%,
+    #435b16 200%
+  ); */
+}
+
+.section-berita .section-berita-heading {
+  padding-top: 100px;
+}
+
+.section-berita .section-berita-heading h2,
+.section-berita .section-berita-heading p {
+  color: #435b16;
+}
+
+.section-berita .section-berita-heading h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.section-berita .section-berita-heading p {
+  font-size: 18px;
+}
+
+.btn-selengkapnya .btn {
+  background-color: #728828;
+  outline: none !important;
+  color: #fff;
+}
+
+.card-berita {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 34.25%,
+    #435b16 200%
+  );
+  min-height: 600px;
+}
+
+/* Galeri Foto */
+
+.section-galeri {
+  min-height: 540px;
+  margin-bottom: -300px;
+}
+
+.section-galeri .section-galeri-heading {
+  padding-top: 100px;
+}
+
+.section-galeri .section-galeri-heading h2,
+.section-galeri .section-galeri-heading p {
+  color: #435b16;
+}
+
+.section-galeri .section-galeri-heading h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.section-galeri .section-galeri-heading p {
+  font-size: 18px;
+}
+
+.btn-selengkapnya .btn {
+  background-color: #728828;
+  outline: none !important;
+  color: #fff;
+}
+
+/* Video */
+
+.section-video {
+  min-height: 540px;
+  margin-bottom: -300px;
+}
+
+.section-video .section-video-heading {
+  padding-top: 100px;
+}
+
+.section-video .section-video-heading h2,
+.section-video .section-video-heading p {
+  color: #435b16;
+}
+
+.section-video .section-video-heading h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.section-video .section-video-heading p {
+  font-size: 18px;
+}
+
+.section-footer a {
+  color: #000;
+  text-decoration: none;
+  font-size: 30px;
+  margin: 8px;
+}
+
+/* Page Details */
+
+.section-details-header {
+  background-color: #8e9f53;
+  min-height: 310px;
+  margin-top: -80px;
+}
+
+.section-details-content {
+  margin-top: -190px;
+  min-height: 100vh;
+}
+
+.section-details-content .breadcrumb {
+  margin-bottom: 30px;
+  background-color: transparent;
+}
+
+.section-details-content .breadcrumb-item.active {
+  font-weight: bold;
+  color: #fff;
+}
+
+.section-details-content .breadcrumb-item {
+  color: #fff;
+}
+
+.section-details-content .card-details {
+  padding: 30px;
+  border-radius: 11px;
+}
+
+.section-details-content .card-details h1 {
+  color: #000;
+  font-size: 26px;
+  margin-bottom: 30px;
+}
+
+.section-details-content .card-details h2 {
+  font-size: 20px;
+  color: #000;
+}
+
+.section-details-content .card-details .features {
+  margin-top: 30px;
+}
+
+.section-details-content .card-details .features h3 {
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.section-details-content .card-details .features p {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.section-details-content .card-details .features .description-image {
+  float: left;
+  width: 45px;
+  height: 45px;
+}
+
+.section-details-content .card-details .features .description {
+  margin-left: 10px;
+  overflow: hidden;
+  float: left;
+}
